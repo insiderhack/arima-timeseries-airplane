@@ -92,5 +92,9 @@ def test_stationarity(timeseries):
 
 ### for more details lets see the code below
 
+
 1. Dataset International Air Passengger.csv (https://github.com/insiderhack/arima-timeseries-airplane/blob/master/AirPassengers.csv)
+
 2. Air Passengger Python (https://github.com/insiderhack/arima-timeseries-airplane/blob/master/Air%20Passengers%20Prediction%20Arima%20model.ipynb)
+
+3. Documentation of this dataset and ARIMA Models on Time Series Forecast.pdf (https://github.com/insiderhack/arima-timeseries-airplane/blob/master/Time%20Series%20Forecast.pdf)
