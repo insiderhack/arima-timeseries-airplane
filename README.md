@@ -89,3 +89,5 @@ def test_stationarity(timeseries):
         dfoutput['Critical Value (%s)'%key] = value
     print dfoutput
 ```
+
+### for more details lets see the code below
