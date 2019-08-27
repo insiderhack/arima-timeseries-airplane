@@ -1,26 +1,25 @@
-# Google-Colab-Fundamental
+# Time Series Forecast : A basic introduction using Python.
 
+Time series data is an important source for information and strategy used in various businesses. From a conventional finance industry to education industry, they play a major role in understanding a lot of details on specific factors with respect to time.
 
-Colab is a Google’s free cloud service which will let you run your deep learning or machine learning models in cloud.
+Time series forecasting is basically the machine learning modeling for Time Series data (years, days, hours…etc.)for predicting future values using Time Series modeling .This helps if your data in serially correlated. Loading and Handling Time Series in Pandas.
 
-### Creating New Colab Notebook
+I will be using python in jupyter notebook. Pandas in python has libraries that are specific to handling time series object .
 
-* Open your Google Drive
-* Create a new notebook via Right click > More > Colaboratory
-
-### GPU Setting
-
-Edit > Notebook settings or Runtime>Change runtime type and select GPU as Hardware accelerator
-
-### RAM Info
+Let's start with the Preliminaries
 ```
-!cat /proc/meminfo
+import pandas as pd
+import numpy as np
+import matplotlib.pylab as plt
+%matplotlib inline
 ```
-
-### CPU Info
+To load the data- I have provided the link to my GitHub where the dataset and the code is available. I will be using the AirPassenger dataset from. Are you ready?
 
 ```
-!cat /proc/cpuinfo
+data = pd.read_csv('AirPassengers.csv')
+print data.head()
+print '\n Data Types:'
+print data.dtypes
 ```
 
 ### Install Libraries
